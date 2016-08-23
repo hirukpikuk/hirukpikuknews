@@ -25,7 +25,7 @@
       setTimeout(function(){
         document.getElementsByTagName('body')[0].removeChild(lbox);
         window.removeEventListener('mousemove', mouseMove, false);
-      }, 10000);
+      }, 30000);
 
       function mouseMove(e) {
         if (IE) {
